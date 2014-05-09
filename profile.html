@@ -26,34 +26,36 @@
 <body>
 	<div id="wrapper">
 
-		<header id="header">
-			<div class="container holder">
-				<strong class="logo navbar-brand"><a href="#">EmployeMYeLife</a></strong>
-				<nav id="nav">
-					<ul class="nav nav-pills">
-						<li><a href="index.php">News Feed</a></li>
-						<li><a href="messages.php">Messages <span class="badge">8</span></a></li>
-						<li><a href="profile.php">Profile</a></li>
-						<li><a href="colleagues.php">Colleagues</a></li>
-					</ul>
-				</nav>
-				<div class="form-search">
-					<div class="row">
-						<div class="input-group">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button">Go!</button>
-							</span>
-							<input type="text" class="form-control" placeholder="Search for people...">
-						</div>
-					</div>
+	<header id="header">
+	<div class="container holder" role="header">
+		<strong class="logo navbar-brand pull-left"><a href="#">EmployeMYeLife</a></strong>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+		<nav id="nav" class="navbar-collapse collapse" role="navigation">
+			<ul class="navbar-nav nav">
+				<li><a href="index.php">News Feed</a></li>
+				<li><a href="messages.php">Messages <span class="badge">8</span></a></li>
+				<li><a href="profile.php">Profile</a></li>
+				<li><a href="colleagues.php">Colleagues</a></li>
+			</ul>
+		</nav>
+		<div class="form-search hidden-xs">
+			<div class="row">
+				<div class="input-group">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Go!</button>
+					</span>
+					<input type="text" class="form-control" placeholder="Search for people...">
 				</div>
-				<ul class="user-nav">
-					<li><a href="#"><img src="images/ico1.png" width="25" height="23" alt="image description"></a></li>
-					<!-- <li><a href="#" class="mail"><span class="badge">25</span></a></li> -->
-					<li><a href="#" class="pulse">pulse</a></li>
-				</ul>
 			</div>
-		</header>
+		</div>
+		<ul class="user-nav">
+			<li><a href="#"><img src="images/ico1.png" width="25" height="23" alt="image description"></a></li>
+			<li><a href="#" class="pulse">pulse</a></li>
+		</ul>
+	</div>
+	</header>
 
 		<div id="main" class="container">
 

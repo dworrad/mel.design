@@ -871,9 +871,9 @@ figure { margin:0; padding:0; }
 	color: #888a8c;
 	opacity: .4;
 }
-.messages .post {padding: 18px 0 15px;}
+.messages .post {padding: 17px 0 15px;}
 .messages .title {
-	font-size: 17px;
+	font-size: 16px;
 	color: #333;
 }
 .messages .control{
@@ -1067,6 +1067,10 @@ figure { margin:0; padding:0; }
 	text-align: center;
 	padding: 25px 0;
 	}
+	
+	.messages .control ul{
+	margin-right: 10px;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -1193,6 +1197,17 @@ figure { margin:0; padding:0; }
 	text-align: center;
 	padding: 20px 0;
 	}
+	
+	.messages .control ul{
+	margin-right: 5px;
+	}
+	
+	.profile .page-header {margin: 25px 0 15px;}
+	
+	.form-horizontal .control-label {
+		margin-bottom: 5px;
+	}
+
 }
 
 @media only screen and (max-width: 480px){
@@ -1203,6 +1218,8 @@ figure { margin:0; padding:0; }
 	}
 	
 	.form-comment .form-control{width: 80%;}
+	
+	.profile .page-header {margin: 22px 0 10px;}
 	
 }
 
