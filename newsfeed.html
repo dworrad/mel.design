@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>EmployeeLife</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
+    <link media="all" rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.js" ></script>
+    <script type="text/javascript" src="js/jquery.main.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					'@-ms-viewport{width:auto !important}'
+				)
+			)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+	</script>
+</head>
+<body>
+
+	<div id="wrapper">
+
+	<header id="header">
+	<div class="container holder" role="header">
+		<strong class="logo navbar-brand pull-left"><a href="#">EmployeMYeLife</a></strong>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+		<nav id="nav" class="navbar-collapse collapse" role="navigation">
+			<ul class="navbar-nav nav">
+				<li><a href="index.php">News Feed</a></li>
+				<li><a href="messages.php">Messages <span class="badge">8</span></a></li>
+				<li><a href="profile.php">Profile</a></li>
+				<li><a href="colleagues.php">Colleagues</a></li>
+			</ul>
+		</nav>
+		<div class="form-search hidden-xs">
+			<div class="row">
+				<div class="input-group">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Go!</button>
+					</span>
+					<input type="text" class="form-control" placeholder="Search for people...">
+				</div>
+			</div>
+		</div>
+		<ul class="user-nav">
+			<li><a href="#"><img src="images/ico1.png" width="25" height="23" alt="image description"></a></li>
+			<li><a href="#" class="pulse">pulse</a></li>
+		</ul>
+	</div>
+	</header>
+
+		<div id="main" class="container">
+
+			<!-- START Sidebar include -->
+			<aside id="sidebar" class="col-md-3 hidden-xs">
+				<div class="holder">
+					<div class="user-block">
+						<div class="img-holder">
+							<img src="images/img1.jpg" width="130" height="123" alt="image description">
+						</div>
+						<h1>Adam Kerr</h1>
+						<a href="#" class="twitt">@adamkerr</a>
+						<div class="contact-info">
+							<a href="#" class="map">Perth, Western Australia</a>
+							<a href="mailto:&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;">&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;</a>
+						</div>
+					</div>
+					<div class="collegues-block">
+						<h2>Collegues</h2>
+						<ul>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img3.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img4.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img5.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img6.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img7.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img8.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img9.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!-- END Sidebar include -->
+
+			<div id="content" class="col-md-9">
+				<div class="holder">
+					<div class="feed">
+						<div class="title">
+							<span class="user-welcome">Welcome, <a href="#">Adam Kerr</a></span>
+							<h2>News Feed</h2>
+						</div>
+						<div class="create-new">
+							<nav class="news-nav">
+								<ul class="nav">
+									<li class="active"><a href="#" class="update">Update</a></li>
+									<li class="hidden-xs"><a href="#" class="note">Notes</a></li>
+									<li class="hidden-xs"><a href="#" class="accomplishment">Accomplishments</a></li>
+									<li class="hidden-xs"><a href="#" class="problem">Problems</a></li>
+									<li class="hidden-xs"><a href="#" class="skills">Skills</a></li>
+								</ul>
+							</nav>
+							<div class="popup-block">
+								<form action="#" class="form-popup">
+									<fieldset>
+										<textarea cols="3" class="form-control" placeholder="Share an update..."></textarea>
+										<div class="control">
+											<div class="shape-control">
+												<a href="#" class="public active">public</a>
+												<a href="#" class="locked">locked</a>
+												<span>Share with: Public</span>
+											</div>
+											<button type="submit" class="btn btn-default">Share</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+                        
+					
+						<section class="post-holder">
+							<article class="post">
+								<img src="images/img2.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<div class="title">
+										<strong class="posted"><a href="#">Anna Smith</a> posted a note</strong>
+									</div>
+									
+									<div class="text">
+										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+									</div>
+								</div>
+							</article>
+                            <div class="control post-details">
+                            	<span class="pad-left">
+                                	<i class="fa fa-clock-o"></i> 3 hours ago
+                                </span>
+                                <span class="pad-left">
+                                	<i class="fa fa-globe"></i> Public
+                                </span>
+                                <span class="pull-right">
+                                	<i class="fa fa-thumbs-o-up"></i>
+                                    <a href="#" class="like">25 likes</a>
+                                </span>
+                            </div>
+                            
+							<form action="#" class="form-comment">
+								<fieldset>
+									<textarea cols="3" class="form-control" placeholder="Type here to comment"></textarea>
+                                    <button type="submit" class="btn btn-default btn-comment">Post</button>
+								</fieldset>
+                                
+							</form>
+							<article class="comment">
+								<img src="images/img6.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<span class="commentator">John Taylor <a href="#">@johntaylor</a></span>
+									<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.  Vestibulum id ligula porta felis euismod semper. </p>
+								</div>
+							</article>
+                            <article class="comment">
+								<img src="images/img3.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<span class="commentator">Michael Yap<a href="#"> @michaelyap</a></span>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</article>
+                            <article class="comment">
+								<img src="images/img4.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<span class="commentator">Ashley Smith<a href="#"> @ashsmith</a></span>
+									<p>Neque porro quisquam est enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+								</div>
+							</article>
+						</section>
+						
+                        <section class="post-holder">
+							<article class="post">
+								<img src="images/img5.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<div class="title">
+										<strong class="posted"><a href="#">Jen Roberts</a> posted a note</strong>
+									</div>
+									
+									<div class="text">
+										<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+									</div>
+								</div>
+							</article>
+                            <div class="control post-details">
+                            	<span class="pad-left">
+                                	<i class="fa fa-clock-o"></i> 3 hours ago
+                                </span>
+                                <span class="pad-left">
+                                	<i class="fa fa-globe"></i> Public
+                                </span>
+                                <span class="pull-right">
+                                	<i class="fa fa-thumbs-o-up"></i>
+                                    <a href="#" class="like">25 likes</a>
+                                </span>
+                            </div>
+                            
+							<form action="#" class="form-comment">
+								<fieldset>
+									<textarea cols="3" class="form-control" placeholder="Type here to comment"></textarea>
+                                    <button type="submit" class="btn btn-default btn-comment">Post</button>
+								</fieldset>
+                                
+							</form>
+							
+                            <article class="comment">
+								<img src="images/img3.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<span class="commentator">Michael Yap<a href="#"> @michaelyap</a></span>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</article>
+                            <article class="comment">
+								<img src="images/img4.jpg" alt="image description" class="alignleft user-avatar">
+								<div class="post-content">
+									<span class="commentator">Ashley Smith<a href="#"> @ashsmith</a></span>
+									<p>Neque porro quisquam est enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+								</div>
+							</article>
+						</section>
+                        
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

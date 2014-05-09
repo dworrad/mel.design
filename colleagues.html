@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>EmployeeLife</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					'@-ms-viewport{width:auto !important}'
+				)
+			)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+
+		<header id="header">
+			<div class="container holder">
+				<strong class="logo navbar-brand"><a href="#">EmployeMYeLife</a></strong>
+				<nav id="nav">
+					<ul class="nav nav-pills">
+						<li><a href="index.php">News Feed</a></li>
+						<li><a href="messages.php">Messages <span class="badge">8</span></a></li>
+						<li><a href="profile.php">Profile</a></li>
+						<li><a href="colleagues.php">Colleagues</a></li>
+					</ul>
+				</nav>
+				<div class="form-search">
+					<div class="row">
+						<div class="input-group">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Go!</button>
+							</span>
+							<input type="text" class="form-control" placeholder="Search for people...">
+						</div>
+					</div>
+				</div>
+				<ul class="user-nav">
+					<li><a href="#"><img src="images/ico1.png" width="25" height="23" alt="image description"></a></li>
+					<!-- <li><a href="#" class="mail"><span class="badge">25</span></a></li> -->
+					<li><a href="#" class="pulse">pulse</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main" class="container">
+			
+			<!-- START Sidebar include -->
+			<aside id="sidebar" class="col-md-3">
+				<div class="holder">
+					<div class="user-block">
+						<div class="img-holder">
+							<img src="images/img1.jpg" width="130" height="123" alt="image description">
+						</div>
+						<h1>Adam Kerr</h1>
+						<a href="#" class="twitt">@adamkerr</a>
+						<div class="contact-info">
+							<a href="#" class="map">Perth, Western Australia</a>
+							<a href="mailto:&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;">&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;</a>
+						</div>
+					</div>
+					<div class="collegues-block">
+						<h2>Collegues</h2>
+						<ul>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img3.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img4.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img5.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img6.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img7.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img8.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img9.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!-- END Sidebar include -->
+
+			<div id="content" class="col-md-9">
+				<div class="holder">
+					<div class="feed">
+						<div class="title">
+							<span class="user-welcome">Welcome, <a href="#">Adam Kerr</a></span>
+							<h2>Colleagues</h2>
+						</div>
+						<div class="colleagues">
+							<section class="company-block">
+								<article class="">
+									<img src="images/img11.png" alt="image description" class="alignleft">
+										<ul class="company-info list-unstyled">
+											<li class="ctitle">Optimum Consulting</li>
+											<li class="location">Perth, Western Australia</li>
+											<li><a href="#">ogroup.com.au</a></li>
+										</ul>
+								</article>
+							</section>
+							<section class="company-search">
+								<div class="col-sm-12">
+									<input type="text" class="form-control" placeholder="Search for people...">
+								</div>
+							</section>
+							<section class="filters">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="form-group">
+									        <label><span class="glyphicon glyphicon-briefcase"></span> Department</label>
+									        <div class="btn-group">
+									          <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+									            Select department <span class="caret"></span>
+									          </button>
+									          <ul class="dropdown-menu">
+									            ...
+									          </ul>
+									        </div>
+									      </div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+									        <label><span class="glyphicon glyphicon-user"></span> Division</label>
+									        <div class="btn-group">
+									          <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+									            Select division <span class="caret"></span>
+									          </button>
+									          <ul class="dropdown-menu">
+									            ...
+									          </ul>
+									        </div>
+									      </div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+									        <label> <span class="glyphicon glyphicon-globe"></span> Location</label>
+									        <div class="btn-group">
+									          <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+									            Select location <span class="caret"></span>
+									          </button>
+									          <ul class="dropdown-menu">
+									            ...
+									          </ul>
+									        </div>
+									      </div>
+									</div>
+								</div>
+							</section>
+							
+								<ul class="directory-list list-unstyled">
+									<li><a href="#">All</a></li>
+									<li><a href="">A</a></li>
+									<li><a href="">B</a></li>
+									<li><a href="">C</a></li>
+									<li><a href="">D</a></li>
+									<li><a href="">E</a></li>
+									<li><a href="">F</a></li>
+									<li><a href="">G</a></li>
+									<li><a href="">H</a></li>
+									<li><a href="">I</a></li>
+									<li><a href="">J</a></li>
+									<li><a href="">K</a></li>
+									<li><a href="">L</a></li>
+									<li><a href="">M</a></li>
+									<li><a href="">N</a></li>
+									<li><a href="">O</a></li>
+									<li><a href="">P</a></li>
+									<li><a href="">Q</a></li>
+									<li><a href="">R</a></li>
+									<li><a href="">S</a></li>
+									<li><a href="">T</a></li>
+									<li><a href="">U</a></li>
+									<li><a href="">V</a></li>
+									<li><a href="">W</a></li>
+									<li><a href="">X</a></li>
+									<li><a href="">Y</a></li>
+									<li><a href="">Z</a></li>
+								</ul>
+								
+							<div class="directory-title">
+								<span>a</span>
+							</div>
+							<section class="member">
+								<img src="images/img2.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">Ana Smith</li>
+										<li class="depatment">Marketing </li>
+										<li><a href="#">anasmith@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+
+							<div class="directory-title">
+								<span>j</span>
+							</div>
+							<section class="member member-border">
+								<img src="images/img3.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">James Hills</li>
+										<li class="depatment">Developer</li>
+										<li><a href="#">jameshills@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+							<section class="member">
+								<img src="images/img6.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">John Taylor</li>
+										<li class="depatment">Consultant</li>
+										<li><a href="#">johntaylor@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+							<div class="directory-title">
+								<span>k</span>
+							</div>
+							<section class="member member-border">
+								<img src="images/img4.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">Kylie Jones</li>
+										<li class="depatment">Sales</li>
+										<li><a href="#">kyliejones@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+							<section class="member">
+								<img src="images/img5.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">Kristy Hinze</li>
+										<li class="depatment">Sales</li>
+										<li><a href="#">kristyhinze@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+							<div class="directory-title">
+								<span>m</span>
+							</div>
+							<section class="member">
+								<img src="images/img7.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">Mark Collins</li>
+										<li class="depatment">Manager</li>
+										<li><a href="#">markcollins@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+							<div class="directory-title">
+								<span>r</span>
+							</div>
+							<section class="member member-border">
+								<img src="images/img8.jpg" class="alignLeft" alt="member">
+									<ul class="member-info list-unstyled">
+										<li class="name">Rebecca Wills</li>
+										<li class="depatment">Marketing</li>
+										<li><a href="#">rebeccawills@ogroup.com.au</a></li>
+									</ul>
+								<button type="button" class="btn btn-primary pull-right">View Profile</button>
+							</section>
+						</div> <!-- / .colleagues -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>EmployeeLife</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					'@-ms-viewport{width:auto !important}'
+				)
+			)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+
+		<header id="header">
+			<div class="container holder">
+				<strong class="logo navbar-brand"><a href="#">EmployeMYeLife</a></strong>
+				<nav id="nav">
+					<ul class="nav nav-pills">
+						<li><a href="index.php">News Feed</a></li>
+						<li><a href="messages.php">Messages <span class="badge">8</span></a></li>
+						<li><a href="profile.php">Profile</a></li>
+						<li><a href="colleagues.php">Colleagues</a></li>
+					</ul>
+				</nav>
+				<div class="form-search">
+					<div class="row">
+						<div class="input-group">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Go!</button>
+							</span>
+							<input type="text" class="form-control" placeholder="Search for people...">
+						</div>
+					</div>
+				</div>
+				<ul class="user-nav">
+					<li><a href="#"><img src="images/ico1.png" width="25" height="23" alt="image description"></a></li>
+					<!-- <li><a href="#" class="mail"><span class="badge">25</span></a></li> -->
+					<li><a href="#" class="pulse">pulse</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div id="main" class="container">
+
+			<!-- START Sidebar include -->
+			<aside id="sidebar" class="col-md-3">
+				<div class="holder">
+					<div class="user-block">
+						<div class="img-holder">
+							<img src="images/img1.jpg" width="130" height="123" alt="image description">
+						</div>
+						<h1>Adam Kerr</h1>
+						<a href="#" class="twitt">@adamkerr</a>
+						<div class="contact-info">
+							<a href="#" class="map">Perth, Western Australia</a>
+							<a href="mailto:&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;">&#097;&#100;&#097;&#109;&#064;&#111;&#103;&#114;&#111;&#117;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;</a>
+						</div>
+					</div>
+					<div class="collegues-block">
+						<h2>Collegues</h2>
+						<ul>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img2.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img3.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img4.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img5.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img6.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img7.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img8.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+							<li>
+								<img src="images/img9.jpg" width="50" height="50" alt="image description">
+								<a href="#" class="over"><span class="glyphicon glyphicon-plus"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!-- END Sidebar include -->
+			
+			<div id="content" class="col-md-9">
+				<div class="holder">
+					<div class="feed">
+						<div class="title">
+							<span class="user-welcome">Welcome, <a href="#">Adam Kerr</a></span>
+							<h2>Profile</h2>
+						</div>
+						<div class="profile">
+							
+							<form class="form-horizontal" role="form">
+							  <h4 class="page-header">Identity</h4>
+							  <div class="form-group">
+							    <label for="firstName" class="col-sm-4 control-label">First Name</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="firstName" placeholder="Adam">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="lastName" class="col-sm-4 control-label">Last Name</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="lastName" placeholder="Kerr">
+							    </div>
+							  </div>
+							  <h4 class="page-header">Location</h4>
+							  <div class="form-group">
+							    <label for="country" class="col-sm-4 control-label">Country</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="country" placeholder="Australia">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="city" class="col-sm-4 control-label">City</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="city" placeholder="Perth">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="state" class="col-sm-4 control-label">State</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="state" placeholder="Western Australia">
+							    </div>
+							  </div>
+							  <h4 class="page-header">Social Media</h4>
+							  <div class="form-group">
+							    <label for="facebook" class="col-sm-4 control-label">Facebook</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="facebook" placeholder="www.facebook.com/adamkerr">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="twitter" class="col-sm-4 control-label">Twitter</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="twitter" placeholder="@adamkerr">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="linkedin" class="col-sm-4 control-label">Linkedin</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="linkedin" placeholder="www.linkedin.com/adamkerr">
+							    </div>
+							  </div>
+							  <h4 class="page-header">Employment</h4>
+							  <div class="form-group">
+							    <label for="employer" class="col-sm-4 control-label">Employer</label>
+							    <div class="col-sm-5">
+							      <input type="text" class="form-control" id="employer" placeholder="Optimum Consulting">
+							    </div>
+							  </div>
+							</form>
+						</div> <!-- / .profile -->
+						<div class="modal-footer">
+				            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				            <button type="button" class="btn btn-primary">Save changes</button>
+				        </div>
+					</div> <!-- / .feed -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
